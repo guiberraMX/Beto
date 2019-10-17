@@ -593,7 +593,7 @@
     /* header */
     .navbar-toggle .icon-bar {background: #fff;}
     .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:rgba(0,0,0,.95); width: 100%; position: absolute; top: 75px}
+    .navbar-collapse {box-shadow: none; background:rgba(256,256,256,.77); width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
     .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
     .navbar-header {float: none;} 
@@ -701,7 +701,7 @@
     
     /* wedding */
     .center-logo-header .navbar-nav li { text-align: left; margin: 15px 13px; float: none; display: block;}
-    .center-logo-header .navbar-nav li a {color: #fff !important; font-size: 12px; font-weight: 500; padding: 0 !important; }
+    .center-logo-header .navbar-nav li a {color: #000 !important; font-size: 12px; font-weight: 500; padding: 0 !important; }
     .center-logo-header .logo-bg {display: none !important;}
     .center-logo-header .navbar-header .logo {display: block; float: left;}
     .center-logo-header .navbar-header {padding: 0 15px;}
@@ -956,7 +956,7 @@
     /* header */
     .navbar-toggle .icon-bar {background: #fff;}
     .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:rgba(0,0,0,.95); width: 100%; position: absolute; top: 75px}
+    .navbar-collapse {box-shadow: none; background:#000; width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
     .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
 
