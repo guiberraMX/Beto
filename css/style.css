@@ -68,7 +68,7 @@ Table of contents
 background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23f6f6f7' fill-opacity='0.41' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-body{ font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
+body{ font-family: 'Domine', serif; -webkit-font-smoothing: antialiased;  font-smoothing: antialiased; font-size:13px; color:#626262; line-height:23px; letter-spacing: 0.02em }
 a, a:active{ color: #626262; text-decoration: none; }
 a:hover, a:focus{ color: #272727;  text-decoration: none}
 a:focus {outline: none !important; }
@@ -127,6 +127,8 @@ h1.page-title { margin:95px auto 0; width: 100%; }
 .text-medium{ font-size:14px !important; line-height:24px !important;}
 .text-large { font-size: 15px !important; line-height: 22px !important; }
 .text-extra-large { font-size: 18px !important; line-height: 27px !important;  }
+.text-extra-large2 { font-size: 26px !important; line-height: 29px !important;  }
+.text-extra-large3 { font-size: 49px !important; line-height: 39px !important;  }
 .title-small{ font-size:20px !important; line-height:30px !important;}
 .title-medium{ font-size:24px !important; line-height:28px !important;}
 .title-large{ font-size:28px !important; line-height:34px !important;}
@@ -215,8 +217,11 @@ a.light-gray-text:hover { color: #7f7f7f !important}
 .first-letter-round {background-color: #e6af2a; border-radius: 50%; color: #fff; font-size: 30px; padding: 15px;}
 
 /* font family */
-.alt-font {font-family: 'Montserrat', sans-serif !important;}
-.main-font {font-family: 'Roboto', sans-serif !important;}
+.alt-font {font-family: 'Domine', serif !important;}
+.alt-font2 {font-family: 'Abril Fatface', cursive !important;}
+.alt-font3 {font-family: 'Great Vibes', cursive !important;}
+
+.main-font {font-family: 'Domine', serif !important;}
 
 /* ===================================
     Icon
@@ -295,7 +300,7 @@ i { color: #9a9a9a; margin:0}
 /* ===================================
     Background color
 ====================================== */
-
+.bg-batman{background: #FAFAFA !important;}
 .bg-white{ background: #fff !important;}
 .bg-white-transparent{ background: rgba(255,255,255,.3) !important}
 .bg-yellow{ background: #e6af2a !important; }
@@ -599,7 +604,7 @@ section { padding: 130px 0; }
 
 
 /* buttons */
-.btn {display: inline-block;  margin-right: 15px; letter-spacing: 1px; border:1px solid transparent; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Montserrat', sans-serif !important; font-weight: 600 }
+.btn {display: inline-block;  margin-right: 15px; letter-spacing: 1px; border:1px solid transparent; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Domine', serif !important; font-weight: 600 }
 .btn-round { border-radius:4px !important}
 .btn i { margin-right:5px}
 .btn.btn-large i { font-size: 24px;}
@@ -677,7 +682,7 @@ section { padding: 130px 0; }
 .btn-light-black{ border: 2px solid #000; color: #000; background-color: transparent}
 .btn-light-black:hover, .btn-light-black:focus {border: 2px solid #000; background-color: #000; color: #fff}
 
-.button-desc { font-size:30px !important; line-height: 35px; font-family: 'Open Sans', sans-serif; font-weight: 600}
+.button-desc { font-size:30px !important; line-height: 35px; font-family: 'Domine', serif; font-weight: 600}
 .button-desc span { display: block; font-size: 18px; font-weight: 400 }
 
 /* reveal button */
@@ -1417,8 +1422,8 @@ input.no-border, input.no-border:focus, select.no-border, select.no-border:focus
 .alert-block { padding:25px;}
 .alert-block p { width:90%}
 
-#success { clear: both; margin: 0 15px 20px; text-align: center; background-color: #fff; border: 2px solid #6dc13a; color: #1a940a;  padding: 10px 0; font-family: 'Montserrat', sans-serif; display: none}
-#success-contact { clear: both; margin: 0 15px 20px; text-align: center; background-color: #fff; border: 2px solid #6dc13a; color: #1a940a;  padding: 10px 0; font-family: 'Montserrat', sans-serif; display: none}
+#success { clear: both; margin: 0 15px 20px; text-align: center; background-color: #fff; border: 2px solid #6dc13a; color: #1a940a;  padding: 10px 0; font-family: 'Domine', serif; display: none}
+#success-contact { clear: both; margin: 0 15px 20px; text-align: center; background-color: #fff; border: 2px solid #6dc13a; color: #1a940a;  padding: 10px 0; font-family: 'Domine', serif; display: none}
 
 /* ===================================
     Video and sound
@@ -1451,7 +1456,7 @@ footer img {max-width: 156px;}
 
 .service { min-height: 684px}
 .service-sub {border: 6px solid transparent; padding: 24px}
-.service-sub:hover {border: 6px solid #fdd947; padding: 24px; background: #fff}
+.service-sub:hover {border: 6px solid #E6E0F8; padding: 24px; background: #fff}
 .agency-skill {min-height: 500px;}
 .work-with-us {padding: 80px 0}
 
@@ -1679,16 +1684,16 @@ footer img {max-width: 156px;}
 
 /* categories */
 .category-list li {border-bottom: 1px solid #e5e5e5; padding: 0 0 12px; margin-bottom: 10px;}
-.category-list li a {font-family: "Montserrat",sans-serif; letter-spacing: 1px; display: inline-block; font-size: 11px; line-height: 20px; text-transform: uppercase}
+.category-list li a {font-family: 'Domine', serif; letter-spacing: 1px; display: inline-block; font-size: 11px; line-height: 20px; text-transform: uppercase}
 .category-list li:last-child {border-bottom: 0; margin: 0; padding: 0;}
 
 /* popular posts */
 .widget-posts li { border-bottom: 1px solid #e5e5e5; padding: 0 0 8px; margin: 0 0 8px; color: #ababab}
-.widget-posts li a {display: table; font-family: "Montserrat",sans-serif;}
+.widget-posts li a {display: table; font-family: 'Domine', serif;}
 .widget-posts li:last-child {margin: 0; padding: 0; border-bottom: 0;}
 
 /* tags */
-.tags a{padding: 2px 10px; display: inline-block; color: #373737; font-family: "Montserrat",sans-serif; margin: 0 8px 10px 0; background-color: #f6f6f6; text-transform: uppercase; font-size: 11px; line-height: 20px;}
+.tags a{padding: 2px 10px; display: inline-block; color: #373737; font-family: 'Domine', serif; margin: 0 8px 10px 0; background-color: #f6f6f6; text-transform: uppercase; font-size: 11px; line-height: 20px;}
 .tags a:hover{background-color: #000; color: #fff !important;} 
 
 /* breadcrumb */
