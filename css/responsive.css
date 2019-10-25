@@ -956,7 +956,7 @@
     /* header */
     .navbar-toggle .icon-bar {background: #fff;}
     .navbar-toggle { margin-right: 0}
-    .navbar-collapse {box-shadow: none; background:#000; width: 100%; position: absolute; top: 75px}
+    .navbar-collapse {box-shadow: none; background:#fff; width: 100%; position: absolute; top: 75px}
     .navbar.shrink .navbar-collapse {top:60px}
     .navbar li.active a { border-bottom: 1px solid #fff; display: inline-block; }
 
