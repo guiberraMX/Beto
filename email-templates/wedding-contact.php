@@ -8,8 +8,8 @@
 	$event=$_POST["eventtype"];
 	
 	// Email Receiver Address
-	$receiver="info@yourdomain.com";
-	$subject="RSVP form details";
+	$receiver="albertol0709@gmail.com";
+	$subject="Invitación de boda";
 
 	$message = "
 	<html>
